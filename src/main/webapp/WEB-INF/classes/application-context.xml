@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xmlns:jdbc="http://www.springframework.org/schema/jdbc"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--                        http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--                        http://www.springframework.org/schema/context-->
+<!--                        http://www.springframework.org/schema/context/spring-context.xsd-->
+<!--                        http://www.springframework.org/schema/jdbc-->
+<!--                        http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">-->
+
+<!--    &lt;!&ndash; Bean Definitions &ndash;&gt;-->
+<!--    -->
+
+<!--</beans>-->
+
+<Context path="/">
+<Resource name="jdbc/HandMadeCrafs"
+          auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="4"
+          maxIdle="0"
+          maxWaitMillis="10000"
+          username="root"
+          password="CSD@mysql-1872"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          removeAbandonedOnBorrow="true"
+          removeAbandonedOnMaintenance="true"
+          removeAbandonedTimeout="60"
+          logAbandoned="true"
+          minEvictableIdleTimeMillis="300000"
+          timeBetweenEvictionRunsMillis="300000"
+          url="jdbc:mysql://localhost:3306/HandMadeCrafs"/>
+</Context>

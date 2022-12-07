@@ -1,0 +1,33 @@
+
+application.properties:
+    A configuration file for Springboot, which defines the settings and options for the web application.
+
+database.properties:
+    A database driver and connection details file, which enables the web application to connect to the MySQL database.
+
+index.html, styles.css, scripts.js:
+    A file or set of files containing the HTML, CSS, and JavaScript code for the frontend of the web application.
+
+WebApplication.java,
+UserController.java,
+ArtAndCraftController.java, etc.:
+    A file or set of files containing the Java code for the backend of the web application, including the web services and APIs.
+
+schema.sql, data.sql:
+    A file or set of files containing the SQL code for the schema and sample data, as well as any additional queries or updates that may be needed.
+
+pom.xml:
+    A file or set of files containing any additional dependencies or libraries that the web application may need, such as third-party libraries or frameworks.
+
+WebApplicationTests.java,
+UserControllerTests.java, etc.:
+    A file or set of files containing the tests and test cases for the web application, to ensure that it is working correctly and performing well.
+
+
+
+deploy.sh, server.xml:
+    A file or set of files containing the deployment scripts and instructions for deploying the web application to a web server.
+
+WebApplication.java,
+UserController.java, etc.:
+    A file or set of files containing the source code for the web application, including any version control information and history.
